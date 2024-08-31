@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1647035173811464296
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3121550534241832126, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8358882
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121550534241832126, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1822268
+      objectReference: {fileID: 0}
+    - target: {fileID: 3121550534241832126, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8584906
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187267785222737373, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_Name
+      value: Projectile Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222072247040134797, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 4434506796483306710}
+    - target: {fileID: 6222072247040134797, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: bulletV.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222072247040134797, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: bulletV.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222072247040134797, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: headbangStrength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787123093504207630, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234266540325302231, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+      propertyPath: m_GravityScale
+      value: 0.2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+--- !u!212 &4434506796483306710 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3121550534241832126, guid: 86c1fbfa53d1f452b9ad6468ce7f2c3d, type: 3}
+  m_PrefabInstance: {fileID: 1647035173811464296}
+  m_PrefabAsset: {fileID: 0}
